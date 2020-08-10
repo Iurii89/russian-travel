@@ -1,0 +1,9 @@
+.header__language {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__language :last-child {
+    margin-left: 18px;
+    text-decoration: none;
+}
