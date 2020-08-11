@@ -12,10 +12,17 @@
     }
 }
 
-@media screen and (max-width: 533px) {
+@media screen and (max-width: 577px) {
     .place__title {
+        text-align: center;
         font-size: 32px;
         line-height: 109%;
         width: 90vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        text-align: left;
     }
 }

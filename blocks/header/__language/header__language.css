@@ -1,9 +1,11 @@
 .header__language {
     display: flex;
+    margin: 0;
+    padding: 0;
     align-items: flex-end;
+    list-style-type: none;
 }
 
-.header__language :last-child {
-    margin-left: 18px;
-    text-decoration: none;
+.header__language :first-of-type {
+    margin-left: 0;
 }

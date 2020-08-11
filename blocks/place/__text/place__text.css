@@ -3,11 +3,11 @@
     flex-direction: column;
 }
 
-.place__text :last-child {
+.place__text :nth-child(2) {
     margin-top: 24px;
 }
 
-@media screen and (max-width: 533px) {
+@media screen and (max-width: 577px) {
     .place__text {
         margin-top: 32px;
         width: 90vw;

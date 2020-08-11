@@ -6,22 +6,28 @@
     align-items: flex-end;
 }
 
+@media screen and (max-width: 1279px) {
+    .footer {
+        width: 92.5vw;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .footer {
-        max-width: 928px;
+        width: 90.625vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        max-width: 720px;
+        width: 93.75;
         margin-top: 88px;
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 450px) {
     .footer {
-        max-width: 58.125vw;
+        width: 58.125vw;
         margin: 20vw 0 0 5vw;
         flex-direction: column;
         justify-content: normal;

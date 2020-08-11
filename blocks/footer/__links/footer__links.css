@@ -5,8 +5,16 @@
     padding: 0;
 }
 
+.footer__links :last-of-type {
+    margin-right: 0;
+}
 
-@media screen and (max-width: 370px) {
+.footer__links :first-of-type {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 450px) {
     .footer__links {
         flex-direction: column;
     }
